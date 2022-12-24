@@ -18,8 +18,6 @@ def get_min_key(st):
 def rec(st, n):
     map = {}
     s = [st[i:i+n] for i in range(0, len(st), n)]
-    
-    map = {}
 
     for c in s:
         if c not in map.keys():
