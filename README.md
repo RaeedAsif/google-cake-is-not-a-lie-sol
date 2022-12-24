@@ -1,5 +1,5 @@
 # Foobar google-cake-is-not-a-lie-sol
-This is python code for google foo bar problem 'cake is not lie'
+This is python code for google foo bar problem 'cake is not lie' written in python
 
 just run 'python3 cake.py'
 
