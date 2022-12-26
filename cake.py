@@ -40,6 +40,8 @@ def rec(st, n):
 
 def solution(s):
     map = rec(s,1)
+    if len(map['pattern']) != s and map['div'] == 1:
+        map['pattern'] = s
     map['input'] = s
     return map
 
